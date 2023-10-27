@@ -1,0 +1,127 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+    <title>Heritage Railway</title>
+
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+        h1{text-align: center;}
+
+        p{text-align: center;}
+</style>
+    
+     </head>
+
+</style>
+
+<style>
+  .footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     height: 8%;
+     width: 100%;
+     background-color: lightgray;
+     color: white;
+  }
+  </style>
+  </head>
+  <body>
+  
+
+  <div class="footer">
+    <img src="Picture6.png" style="width: 96px; height: 24px; margin-top: 13.5px; margin-left: 500px; align-self: center;">
+  </div>
+
+
+
+  <nav class="w3-bar w3-border w3-card-4 w3-light-grey">
+    <a href="#" class="w3-bar-item w3-button w3-light-grey"><i class="fa-solid fa-train fa-xl"></i></a>
+    <a href="demo1.html" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-home"></i></a>
+    <a href="staff.html" class="w3-bar-item w3-button w3-hide-small">Staff</a>
+    <a href="volunteer.html" class="w3-bar-item w3-button w3-hide-small">Apply Now</a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+  </div>
+
+<div id="demo" class="w3-bar-block w3-light-grey w3-hide w3-hide-large w3-hide-medium">
+  <a href="staff.html" class="w3-bar-item w3-button">Staff</a>
+  <a href="volunteer.html" class="w3-bar-item w3-button">Apply Now</a>
+</nav>
+
+
+<div>
+
+  <div class="container">
+    <img src="Picture2.png" style="width:100%;">
+    <div class="bottom-left"></div>
+    <div class="top-left"></div>
+    <div class="top-right"></div>
+    <div class="bottom-right"></div>
+    <div class="centered"></div>
+  </div>
+
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("demo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+  
+  <body>
+  
+  
+  <div class="row">
+    <div class="column">
+      <img src="Picture3.png" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="Picture4.png" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="Picture5.png" style="width:100%">
+    </div>
+  </div>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 1000px) {
+      .column {
+        width: 100%;
+      }
+    }
+    </style>
+
+
+
+</body>
+
+
+</html>
